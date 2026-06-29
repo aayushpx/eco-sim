@@ -1,0 +1,8 @@
+# build output
+cpp/bin/
+cpp/.sconsign*
+*.o
+*.so
+
+# godot cache
+.godot/

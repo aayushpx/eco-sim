@@ -1,0 +1,8 @@
+[configuration]
+
+entry_symbol = "ecosim_library_init"
+compatibility_minimum = "4.7"
+
+[libraries]
+linux.debug.x86_64 = "res://cpp/bin/libecosim.so"
+linux.release.x86_64 = "res://cpp/bin/libecosim.so"
