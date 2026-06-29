@@ -1,8 +1,16 @@
-# build output
+# Godot
+.godot/
+*.import
+
+# Build output
 cpp/bin/
+cpp/*.o
 cpp/.sconsign*
-*.o
 *.so
 
-# godot cache
-.godot/
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
