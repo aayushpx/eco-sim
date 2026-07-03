@@ -7,6 +7,7 @@ env.Append(CPPPATH=["include"])
 sources = [
     "src/eco_node.cpp",
     "src/register_types.cpp",
+    "src/my_node.cpp",
 ]
 
 library = env.SharedLibrary(
