@@ -2,4 +2,4 @@
 
 [node name="Node3D" type="Node3D" unique_id=1673166011]
 
-[node name="EcoNode" type="EcoNode" parent="." unique_id=886709977]
+[node name="MyNode" type="MyNode" parent="." unique_id=1227035163]
