@@ -16,3 +16,6 @@ cpp/.sconsign*
 
 # OS
 .DS_Store
+
+# build output
+build/
