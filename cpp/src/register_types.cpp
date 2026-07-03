@@ -2,6 +2,7 @@
 #include <godot_cpp/godot.hpp>
 
 #include "eco_node.hpp"
+#include "my_node.hpp"
 
 using namespace godot;
 
@@ -9,6 +10,7 @@ static void initialize_ecosim(ModuleInitializationLevel p_level) {
   if (p_level != MODULE_INITIALIZATION_LEVEL_SCENE) return;
 
   ClassDB::register_class<EcoNode>();
+  ClassDB::register_class<MyNode>();
 }
 
 static void uninitialize_ecosim(ModuleInitializationLevel p_level) {
