@@ -43,6 +43,12 @@
 
 **Exit check:** `cmake build` succeeds and running the resulting executable prints the world dimensions correctly. No Godot code anywhere in `/sim_core/` yet.
 
+```make
+cmake -S . -B build
+cmake --build build
+./build/sim_core
+```
+
 ---
 
 ## Session 3 — Grid Initialization
